@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="calculator">
+        <input type="text" id="displaay" class="display" disabled>
+        <div class="buttons">
+            <button  class="button clear" onclick="clearDisplay()">AC</button>
+            <button value="" class="button operator" onclick="appendvalue('/')">/</button>
+            <button value="" class="button operator" onclick="appendvalue('*')">*</button>
+            <button value="" class="button operator" onclick="appendvalue('-')">-</button>
+ 
+            <button value="7" class="button" onclick="appendvalue('7')">7</button>
+            <button value="8" class="button" onclick="appendvalue('8')">8</button>
+            <button value="" class="button" onclick="appendvalue('9')">9</button>
+            <button value="" class="button operator" onclick="appendvalue('+')">+</button>
+ 
+            <button value="" class="button" onclick="appendvalue('4')">4</button>
+            <button value="" class="button" onclick="appendvalue('5')">5</button>
+            <button value="" class="button" onclick="appendvalue('6')">6</button>
+            <button  class="button equal" onclick="addd()">=</button>
+ 
+            <button value="" class="button" onclick="appendvalue('1')">1</button>
+            <button value="" class="button" onclick="appendvalue('2')">2</button>
+            <button value="" class="button" onclick="appendvalue('3')">3</button>
+            <button value="" class="button" onclick="appendvalue('0')">0</button>
+ 
+            <button value="" class="button operator" onclick="fact()">fact</button>
+            <button value="" class="button operator" onclick="squ()">squ</button>
+            <button value="" class="button operator" onclick="cube()">cube</button>
+            <button value="" class="button operator" onclick="appendvalue('.')">.</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- <table>
+         <tr>
+            <td>
+                <input type="text">
+            </td>
+            <td> <input type="button" value="C"></td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="7"></td>
+            <td> <input type="button" value="8"></td>
+            <td> <input type="button" value="9"></td>
+            <td> <input type="button" value="/"></td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="4"></td>
+            <td> <input type="button" value="5"></td>
+            <td> <input type="button" value="6"></td>
+            <td> <input type="button" value="*"></td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="1"></td>
+            <td> <input type="button" value="2"></td>
+            <td> <input type="button" value="3"></td>
+            <td> <input type="button" value="-"></td>
+        </tr>
+
+    </table>  -->
+ 
+    <script src="script.js"></script>
+    
+</body>
+</html>
